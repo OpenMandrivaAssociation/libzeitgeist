@@ -4,7 +4,7 @@
 %define develname %mklibname -d zeitgeist
 
 Name: libzeitgeist
-Version: 0.3.16
+Version: 0.3.18
 Release: 1
 Summary: Client library for applications that want to interact with the Zeitgeist daemon
 Group: System/Libraries
@@ -46,9 +46,6 @@ developing applications that use %{name}.
 %build
 %configure2_5x --disable-static
 %make
-
-%check
-make check
 
 %install
 %makeinstall_std
