@@ -6,7 +6,7 @@
 Summary:	Client library for applications that want to interact with the Zeitgeist daemon
 Name:		libzeitgeist
 Version:	0.3.18
-Release:	8
+Release:	9
 Group:		System/Libraries
 License:	LGPLv3 and GPLv3
 Url:		https://launchpad.net/libzeitgeist
