@@ -11,6 +11,11 @@ Group:		System/Libraries
 License:	LGPLv3 and GPLv3
 Url:		https://launchpad.net/libzeitgeist
 Source0:	http://launchpad.net/%{name}/0.3/%{version}/+download/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gtk-doc
 BuildRequires:	pkgconfig(glib-2.0)
 # zeitgeist is just a runtime and the reason to install libzeitgeist
